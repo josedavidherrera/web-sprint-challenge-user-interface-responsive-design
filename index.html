@@ -3,27 +3,39 @@
 <html lang="en">
 
 <head>
+	<link rel="stylesheet" href="css/index.css">
 	<meta charset="utf-8">
-
-	<title>Sprint Challenge - Home</title>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	
+	<title>Sprint Challenge - Home</title>
 </head>
 
 <body>
 	<div>
 		<!-- header -->
 		<header>
-			<div>
-				BLOOMTECH BAR AND GRILL
+				<h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
+				<nav>
+					<div class="linkNavigation">
+						<a href="menu.html" target="_blank">Menu</a>
+						<a href="index.html">Reservations</a> 
+						<a href="index.html">Special Offers</a> 
+						<a href="index.html">Contact</a> 
+					</div>
 
-				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
-			</div>
+					<div class="mediaLinks">
+					<nav class="social-media-links">
+						<i class="fab fa-instagram"></i>
+						<i class="fab fa-facebook-square"></i>
+						<i class="fab fa-twitter-square"></i>
+						<!--<a href="https://www.facebook.com" target="_blank" title="Facebook" src="Social Media Links/facebook-f.svg" alt="Facebook icon"></a>
+						<a href="https://www.instagram.com" target="_blank" title="Instagram" src="Social Media Links/instagram.svg" alt="Instagram Icon"></a>
+						<a href="https://www.twitter.com" target="_blank" title="Twitter" src="Social Media Links/twitter.svg" alt="Twitter Icon"></a> -->
+					</nav>	
+					</div>
+				</nav>	
 		</header>
 
 		<!-- gallery section -->
@@ -31,23 +43,23 @@
 			<div>
 				<h2>OUR FOOD</h2>
 
-				img/food-avocadotoast.jpg
+				<img src="img/food-avocadotoast.jpg" alt="Two pieces of toast with mashed avocado, tomato, and onions topped with a poached egg"> 
 
-				img/food-burger.jpg
+				<img src="img/food-burger.jpg" alt="A thick cut burger, a plate of mac and cheese and a hand holding a small glass of liquid"> 
 
-				img/food-poutine.jpg
+				<img src="img/food-poutine.jpg" alt="Square metal platter with poutine on it"> 
 
-				img/food-ribs.jpg
+				<img src="img/food-ribs.jpg" alt="Bowl of ribs and other decorative mashed potatoes and vegetables">
 
-				img/food-sandwich.jpg
+				<img src="img/food-sandwich.jpg" alt="Cross section of a pulled chicken sandwich with chopped greens and onions">
 
-				img/food-sausage.jpg
+				<img src="img/food-sausage.jpg" alt="Sausage in a bagguete topped with shallots and lettuce">
 
-				img/food-steak.jpg
+				<img src="img/food-steak.jpg" alt="Prime cut of steak smothered in a cranberry compote with a side of broccolini ">
 
-				img/food-tacos.jpg
+				<img src="img/food-tacos.jpg" alt="Platter of 3 fried chicken tacos topped with a red and green cabbage slaw and a beer flight behind them. ">
 
-				img/food-wings.jpg
+				<img src="img/food-wings.jpg" alt="Arial view of 5 bone-in chicken wings with a side of ranch and cuccumber slices, as well as a glass bottle of watermelon flavored Jarritos">
 			</div>
 		</section>
 
@@ -60,6 +72,7 @@
 				<h2>ABOUT US</h2>
 
 				<div id="cooks" class="pic">
+					<img src="img/staff-cooks.jpg" alt="Picture of three cooks sitting down on a curb. The one on the right is pointing at the camera">
 				</div>
 
 				<div class="text">
@@ -74,6 +87,7 @@
 				</div>
 
 				<div id="bartender" class="pic">
+					<img src="img/staff-bartender.jpg" alt="Female bartender in a floral print shirt pouring ice cuber into a moscow mule">
 				</div>
 			</div>
 		</section>
@@ -125,15 +139,19 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
-			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<h2>Join our mailing list!</h2>
+			<input type="text" id="emailAddress" name="emailAddress" placeholder="Email Address">
+			<button>Sign Up</button> 
+			<div>
+				<nav>
+				<a href="menu.html">Menu</a>
+				<a href="reservations.html">Reservations</a> 
+				<a href="specialOffers.html">Special Offers</a> 
+				<a href="contact.html">Contact</a> 
+			    </nav>
+			</div>
 			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			<link rel="stylesheet" href="LICENSE"> ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
 		</footer>
 	</div>
 </body>
